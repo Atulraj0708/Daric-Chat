@@ -5,7 +5,7 @@ import ChatFeed from './components/ChatFeed';
 import Login from './components/Login';
 
 const App = () => {
-    
+
     if(!localStorage.getItem('username'))
     return <Login/>
 
