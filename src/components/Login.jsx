@@ -11,7 +11,7 @@ const Login = () => {
     const handleSubmit=async(e)=>{
         e.preventDefault();
         const authObj={
-            'Project-ID':'e8930564-fd7e-4c21-aa1d-00ba8ec7474d',
+            'Project-ID':'8fac868f-44dd-431f-a68b-d124e262334f',
             'User-Name':username,
             'User-Secret':password
                       }
@@ -28,7 +28,7 @@ const Login = () => {
   return (
     <div className='wrapper'>
         <div className='form'>
-            <h1 className='title'>Dirac Chat</h1>
+            <h1 className='title'>Daric Chat</h1>
             <form onSubmit={handleSubmit}>
                 <input type='text' value={username} onChange={(e)=>setUsername(e.target.value)} className='input' placeholder='Enter the Username' required/>
                 <input type='password' value={password} onChange={(e)=>setPassword(e.target.value)} className='input' placeholder='Enter the Password' required/>
